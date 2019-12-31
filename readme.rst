@@ -8,7 +8,9 @@ Simpel aplikasi untuk Tokenisasi, Stopword Removal, dan Stemming pada Informatio
 Screenshot
 **********
 
-<img src="assets/img/screenshot.png" width="300" />
+.. image:: assets/img/screenshot.png
+  :width: 400
+  :alt: Screenshot
 
 **********
 Created on
@@ -20,8 +22,6 @@ Created on
 Team Member
 ***********
 
-<ol>
-    <li>David Juli Ariyadi (1829101044)</li>
-    <li>Ida Bagus Surya Dharma (1829101039)</li>
-    <li>Muhammad Saepuddin (1829101059)</li>
-</ol>
+#. David Juli Ariyadi (1829101044).
+#. Ida Bagus Surya Dharma (1829101039).
+#. Muhammad Saepuddin (1829101059).
