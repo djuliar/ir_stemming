@@ -24,14 +24,14 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Information Retrieval App</a>
+            <a class="navbar-brand js-scroll-trigger" href="<?= base_url() ?>">Information Retrieval App</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger active" href="<?= base_url() ?>">Home</a>
+                        <a class="nav-link js-scroll-trigger active" href="#page-top">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#publish">Upload</a>
@@ -56,10 +56,10 @@
             <div class="row">
                 <div class="col-lg-12 mx-auto">
                     <h2>Upload Dokumen Anda</h2>
-                    <p class="lead">Pilih file docx atau pdf dengan ukuran maksimal 2MB, kemudian tekan tombol Upload</p>
+                    <p class="lead">Pilih file doc, docx atau pdf dengan ukuran maksimal 2MB, kemudian tekan tombol Upload</p>
                     <form data-url="<?= base_url('home/upload') ?>" method="post" enctype="multipart/form-data" id="formUpload">
                     <div class="input-group input-group-lg mb-3">
-                        <input type="file" name="dokumen" id="dokumen" class="form-control" placeholder="Masukkan File DOCX/PDF" accept=".docx, .pdf" >
+                        <input type="file" name="dokumen" id="dokumen" class="form-control" accept=".doc, .docx, .pdf" >
                         <div class="input-group-append">
                             <button class="btn btn-primary" type="submit" id="upload"><i class="fa fa-upload"></i> Upload</button>
                         </div>
